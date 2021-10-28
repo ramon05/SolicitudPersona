@@ -8,8 +8,4 @@
     <ProjectReference Include="..\SolicitudApi.Core\SolicitudApi.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Entities\" />
-  </ItemGroup>
-
 </Project>
