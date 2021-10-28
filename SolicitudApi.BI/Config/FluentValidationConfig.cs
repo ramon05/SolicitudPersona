@@ -1,4 +1,7 @@
-﻿using System;
+﻿using FluentValidation.AspNetCore;
+using Microsoft.Extensions.DependencyInjection;
+using SolicituApi.Bl.Validations;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
