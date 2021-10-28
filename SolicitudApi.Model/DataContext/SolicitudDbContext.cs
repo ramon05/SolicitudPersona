@@ -46,9 +46,6 @@ namespace SolicitudApi.Model.DataContext
 
                 entity.Property(e => e.PhotoId)
                       .HasColumnName("Foto");
-
-                entity.Property(e => e.SolicitudeId)
-                      .HasColumnName("SolicitudId");
             });
 
             modelBuilder.Entity<Solicitude>(entity =>
@@ -62,6 +59,9 @@ namespace SolicitudApi.Model.DataContext
 
                 entity.Property(e => e.CreadDate)
                       .HasColumnName("FechaCreacion");
+
+                entity.Property(e => e.PersonId)
+                      .HasColumnName("PersonaId");
 
             });
 
@@ -79,6 +79,23 @@ namespace SolicitudApi.Model.DataContext
 
                 entity.Property(e => e.CreadDate)
                       .HasColumnName("FechaCreacion");
+
+            });
+
+            modelBuilder.Entity<Document>(entity =>
+            {
+                entity.ToTable("Documento");
+
+                entity.HasKey(e => e.Id);
+
+                entity.Property(e => e.FileName)
+                      .HasColumnName("NombreArchivo");
+
+                entity.Property(e => e.ContentType)
+                      .HasColumnName("TipoContenido");
+
+                entity.Property(e => e.OriginalName)
+                      .HasColumnName("NombreOriginal");
 
             });
 

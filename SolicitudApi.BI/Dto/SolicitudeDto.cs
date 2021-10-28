@@ -1,5 +1,6 @@
 ﻿using SolicitudApi.Core.BaseModel;
 using SolicitudApi.Core.Enums;
+using SolicitudApi.Model.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -10,5 +11,7 @@ namespace SolicitudApi.BI.Dto
     {
         public Status StatusName { get; set; }
         public string CreadDate { get; set; }
+        public int PersonId { get; set; }
+        public Person PersonDto { get; set; }
     }
 }

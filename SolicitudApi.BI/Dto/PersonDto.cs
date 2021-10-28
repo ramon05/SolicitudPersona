@@ -18,7 +18,5 @@ namespace SolicitudApi.BI.Dto
         public int? PhotoId { get; set; }
         public virtual DocumentDto Photo { get; set; }
         public string PhotoFileName { get; set; }
-        public int SolicitudeId { get; set; }
-        public SolicitudeDto Solicitude { get; set; }
     }
 }

@@ -14,7 +14,8 @@ namespace SolicitudApi.BI.Mapper
             CreateMap<Document, DocumentDto>();
             CreateMap<DocumentDto, Document>();
 
-            CreateMap<Person, PersonDto>();
+            CreateMap<Person, PersonDto>()
+                .ForMember(dto => dto.PhotoFileName, config => config.MapFrom(entity => entity.Photo.FileName));
             CreateMap<PersonDto, Person>();
 
             CreateMap<Solicitude, SolicitudeDto>();

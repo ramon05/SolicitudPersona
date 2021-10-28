@@ -1,4 +1,5 @@
 ﻿using FluentValidation;
+using SolicitudApi.BI.Dto;
 using SolicitudApi.Model.Entities;
 using System;
 using System.Collections.Generic;
@@ -6,7 +7,7 @@ using System.Text;
 
 namespace SolicitudApi.BI.Validations
 {
-    public class PersonValidation : AbstractValidator<Person>
+    public class PersonValidation : AbstractValidator<PersonDto>
     {
         public PersonValidation()
         {

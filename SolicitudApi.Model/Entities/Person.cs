@@ -11,6 +11,7 @@ namespace SolicitudApi.Model.Entities
         public Person()
         {
             Teams = new HashSet<Team>();
+            Solicitudes = new HashSet<Solicitude>();
         }
         public string Name { get; set; }
         public string LastName { get; set; }
@@ -20,9 +21,8 @@ namespace SolicitudApi.Model.Entities
         public Gender Gender { get; set; }
         public int? PhotoId { get; set; }
         public virtual Document Photo { get; set; }
-        public int SolicitudeId { get; set; }
-        public Solicitude Solicitude { get; set; }
         public virtual ICollection<Team> Teams { get; set; }
+        public virtual ICollection<Solicitude> Solicitudes { get; set; }
     }
 
 }

@@ -27,20 +27,23 @@ namespace SolicitudApi.Model.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("ContentType")
+                        .HasColumnName("TipoContenido")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("Deleted")
                         .HasColumnType("bit");
 
                     b.Property<string>("FileName")
+                        .HasColumnName("NombreArchivo")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("OriginalName")
+                        .HasColumnName("NombreOriginal")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Documents");
+                    b.ToTable("Documento");
                 });
 
             modelBuilder.Entity("SolicitudApi.Model.Entities.Person", b =>
@@ -81,15 +84,9 @@ namespace SolicitudApi.Model.Migrations
                         .HasColumnName("Foto")
                         .HasColumnType("int");
 
-                    b.Property<int>("SolicitudeId")
-                        .HasColumnName("SolicitudId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
                     b.HasIndex("PhotoId");
-
-                    b.HasIndex("SolicitudeId");
 
                     b.ToTable("Persona");
                 });
@@ -108,11 +105,17 @@ namespace SolicitudApi.Model.Migrations
                     b.Property<bool>("Deleted")
                         .HasColumnType("bit");
 
+                    b.Property<int>("PersonId")
+                        .HasColumnName("PersonaId")
+                        .HasColumnType("int");
+
                     b.Property<int>("StatusName")
                         .HasColumnName("NombreEstado")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("PersonId");
 
                     b.ToTable("Solicitud");
                 });
@@ -151,10 +154,13 @@ namespace SolicitudApi.Model.Migrations
                     b.HasOne("SolicitudApi.Model.Entities.Document", "Photo")
                         .WithMany()
                         .HasForeignKey("PhotoId");
+                });
 
-                    b.HasOne("SolicitudApi.Model.Entities.Solicitude", "Solicitude")
-                        .WithMany("Persons")
-                        .HasForeignKey("SolicitudeId")
+            modelBuilder.Entity("SolicitudApi.Model.Entities.Solicitude", b =>
+                {
+                    b.HasOne("SolicitudApi.Model.Entities.Person", "Person")
+                        .WithMany("Solicitudes")
+                        .HasForeignKey("PersonId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

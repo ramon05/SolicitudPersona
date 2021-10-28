@@ -68,3 +68,13 @@ C:\Users\elrey\source\repos\Solicitud\SolicitudApi\obj\Debug\netcoreapp3.1\Solic
 C:\Users\elrey\source\repos\Solicitud\SolicitudApi\obj\Debug\netcoreapp3.1\SolicitudApi.pdb
 C:\Users\elrey\source\repos\Solicitud\SolicitudApi\obj\Debug\netcoreapp3.1\SolicitudApi.genruntimeconfig.cache
 C:\Users\elrey\source\repos\Solicitud\SolicitudApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi\obj\Debug\netcoreapp3.1\SolicitudApi.MvcApplicationPartsAssemblyInfo.cs

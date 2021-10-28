@@ -1,3 +1,4 @@
+using GenericApi.Config;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -37,12 +38,27 @@ namespace SolicitudApi
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
 
+            services.AddSwagger();
+
             services.configAutoMapper();
 
             services.AddModelRegistry();
             services.AddServiceRegistry();
-            
 
+            services.AddCors(options =>
+            {
+                options.AddPolicy("MainPolicy",
+                      builder =>
+                      {
+                          builder
+                                 .AllowAnyHeader()
+                                 .AllowAnyMethod()
+                                 .AllowCredentials();
+
+                          //TODO: remove this line for production
+                          builder.SetIsOriginAllowed(x => true);
+                      });
+            });
 
         }
 
@@ -54,11 +70,15 @@ namespace SolicitudApi
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseAppSwagger();
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseCors("MainPolicy");
 
             app.UseEndpoints(endpoints =>
             {
