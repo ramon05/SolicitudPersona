@@ -1,8 +1,28 @@
 {
   "version": 2,
-  "dgSpecHash": "rtcVJxadZUSc+YFndx1Ez7mrjSvchjh0ICrUl9Kz8pIpWAyLdBNEYo2gXmrdZMct9Kld/fSXFkEPCX5p7v0oHA==",
+  "dgSpecHash": "6I8mZtn/wfWMf4ztJbDI51FnmjxG7xL6aDkL9DJCtBUxN7S4wIYaAhkFTkf0I5c0GamCpLIRvau/ArMJ64pF2Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\elrey\\source\\repos\\Solicitud\\SolicitudApi.Model\\SolicitudApi.Model.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\elrey\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+    "C:\\Users\\elrey\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
+    "C:\\Users\\elrey\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.19\\microsoft.entityframeworkcore.3.1.19.nupkg.sha512",
+    "C:\\Users\\elrey\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.19\\microsoft.entityframeworkcore.abstractions.3.1.19.nupkg.sha512",
+    "C:\\Users\\elrey\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.19\\microsoft.entityframeworkcore.analyzers.3.1.19.nupkg.sha512",
+    "C:\\Users\\elrey\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.19\\microsoft.extensions.caching.abstractions.3.1.19.nupkg.sha512",
+    "C:\\Users\\elrey\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.19\\microsoft.extensions.caching.memory.3.1.19.nupkg.sha512",
+    "C:\\Users\\elrey\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.19\\microsoft.extensions.configuration.3.1.19.nupkg.sha512",
+    "C:\\Users\\elrey\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.19\\microsoft.extensions.configuration.abstractions.3.1.19.nupkg.sha512",
+    "C:\\Users\\elrey\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.19\\microsoft.extensions.configuration.binder.3.1.19.nupkg.sha512",
+    "C:\\Users\\elrey\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.19\\microsoft.extensions.dependencyinjection.3.1.19.nupkg.sha512",
+    "C:\\Users\\elrey\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.19\\microsoft.extensions.dependencyinjection.abstractions.3.1.19.nupkg.sha512",
+    "C:\\Users\\elrey\\.nuget\\packages\\microsoft.extensions.logging\\3.1.19\\microsoft.extensions.logging.3.1.19.nupkg.sha512",
+    "C:\\Users\\elrey\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.19\\microsoft.extensions.logging.abstractions.3.1.19.nupkg.sha512",
+    "C:\\Users\\elrey\\.nuget\\packages\\microsoft.extensions.options\\3.1.19\\microsoft.extensions.options.3.1.19.nupkg.sha512",
+    "C:\\Users\\elrey\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.19\\microsoft.extensions.primitives.3.1.19.nupkg.sha512",
+    "C:\\Users\\elrey\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
+    "C:\\Users\\elrey\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\elrey\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
   "logs": []
 }

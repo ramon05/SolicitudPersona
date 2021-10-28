@@ -1,0 +1,9 @@
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi.Core\bin\Debug\netcoreapp3.1\SolicitudApi.Core.deps.json
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi.Core\bin\Debug\netcoreapp3.1\SolicitudApi.Core.dll
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi.Core\bin\Debug\netcoreapp3.1\SolicitudApi.Core.pdb
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi.Core\obj\Debug\netcoreapp3.1\SolicitudApi.Core.csproj.AssemblyReference.cache
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi.Core\obj\Debug\netcoreapp3.1\SolicitudApi.Core.AssemblyInfoInputs.cache
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi.Core\obj\Debug\netcoreapp3.1\SolicitudApi.Core.AssemblyInfo.cs
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi.Core\obj\Debug\netcoreapp3.1\SolicitudApi.Core.csproj.CoreCompileInputs.cache
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi.Core\obj\Debug\netcoreapp3.1\SolicitudApi.Core.dll
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi.Core\obj\Debug\netcoreapp3.1\SolicitudApi.Core.pdb
