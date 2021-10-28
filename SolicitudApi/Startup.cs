@@ -10,6 +10,7 @@ using Microsoft.Extensions.Logging;
 using SolicitudApi.BI.Config;
 using SolicitudApi.Model.DataContext;
 using SolicitudApi.Model.IoC;
+using SolicitudApi.Service.IoC;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,10 +37,11 @@ namespace SolicitudApi
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
 
+            services.configAutoMapper();
 
             services.AddModelRegistry();
-
-            services.configAutoMapper();
+            services.AddServiceRegistry();
+            
 
 
         }
