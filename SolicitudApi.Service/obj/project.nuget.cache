@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "HzozUFE3ok9+BHKAAcPQSRnAVKakjFJQitRsZQYVxL5/ppn83y8WJwCcliqNuNusgD1eWZbLdb2XH4lHjhTfwg==",
+  "dgSpecHash": "eyEjfJT8/f19rr2qgEPoL+Zu0XPqbb/f6FZTCjireTRI84OEILzBy4tR2CZEOBB/as6uRhlF+XqARm9Y2GXt/w==",
   "success": true,
   "projectFilePath": "C:\\Users\\elrey\\source\\repos\\Solicitud\\SolicitudApi.Service\\SolicitudApi.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elrey\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\elrey\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\elrey\\.nuget\\packages\\fluentvalidation\\10.3.4\\fluentvalidation.10.3.4.nupkg.sha512",
+    "C:\\Users\\elrey\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.4\\fluentvalidation.aspnetcore.10.3.4.nupkg.sha512",
+    "C:\\Users\\elrey\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.4\\fluentvalidation.dependencyinjectionextensions.10.3.4.nupkg.sha512",
     "C:\\Users\\elrey\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\elrey\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\elrey\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
