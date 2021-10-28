@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xM4z+6yXhs2URsWpdM5u5B/0Biud7cIF3YoT+Y1cRLSq6spuOrZzvPmiFjfpVmlCe0LNNu0ZTvJtRda5Vp1Zow==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\elrey\\source\\repos\\Solicitud\\SolicitudApi\\SolicitudApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\elrey\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}

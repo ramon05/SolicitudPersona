@@ -1,0 +1,153 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SolicitudApi.BI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "SolicitudApi.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SolicitudApi.BI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SolicitudApi.BI.dll": {}
+        }
+      },
+      "SolicitudApi.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/SolicitudApi.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SolicitudApi.Core.dll": {}
+        }
+      },
+      "SolicitudApi.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "SolicitudApi.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SolicitudApi.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SolicitudApi.Model.dll": {}
+        }
+      },
+      "SolicitudApi.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "SolicitudApi.BI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SolicitudApi.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SolicitudApi.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SolicitudApi.BI/1.0.0": {
+      "type": "project",
+      "path": "../SolicitudApi.BI/SolicitudApi.BI.csproj",
+      "msbuildProject": "../SolicitudApi.BI/SolicitudApi.BI.csproj"
+    },
+    "SolicitudApi.Core/1.0.0": {
+      "type": "project",
+      "path": "../SolicitudApi.Core/SolicitudApi.Core.csproj",
+      "msbuildProject": "../SolicitudApi.Core/SolicitudApi.Core.csproj"
+    },
+    "SolicitudApi.Model/1.0.0": {
+      "type": "project",
+      "path": "../SolicitudApi.Model/SolicitudApi.Model.csproj",
+      "msbuildProject": "../SolicitudApi.Model/SolicitudApi.Model.csproj"
+    },
+    "SolicitudApi.Service/1.0.0": {
+      "type": "project",
+      "path": "../SolicitudApi.Service/SolicitudApi.Service.csproj",
+      "msbuildProject": "../SolicitudApi.Service/SolicitudApi.Service.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "SolicitudApi.Service >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\elrey\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\elrey\\source\\repos\\Solicitud\\SolicitudApi\\SolicitudApi.csproj",
+      "projectName": "SolicitudApi",
+      "projectPath": "C:\\Users\\elrey\\source\\repos\\Solicitud\\SolicitudApi\\SolicitudApi.csproj",
+      "packagesPath": "C:\\Users\\elrey\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\elrey\\source\\repos\\Solicitud\\SolicitudApi\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\elrey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\elrey\\source\\repos\\Solicitud\\SolicitudApi.Service\\SolicitudApi.Service.csproj": {
+              "projectPath": "C:\\Users\\elrey\\source\\repos\\Solicitud\\SolicitudApi.Service\\SolicitudApi.Service.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.18, 3.1.18]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
