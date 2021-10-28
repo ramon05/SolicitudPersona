@@ -1,0 +1,14 @@
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi.BI\obj\Debug\netcoreapp3.1\SolicitudApi.BI.csproj.AssemblyReference.cache
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi.BI\obj\Debug\netcoreapp3.1\SolicitudApi.BI.AssemblyInfoInputs.cache
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi.BI\obj\Debug\netcoreapp3.1\SolicitudApi.BI.AssemblyInfo.cs
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi.BI\obj\Debug\netcoreapp3.1\SolicitudApi.BI.csproj.CoreCompileInputs.cache
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi.BI\bin\Debug\netcoreapp3.1\SolicitudApi.BI.deps.json
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi.BI\bin\Debug\netcoreapp3.1\SolicitudApi.BI.dll
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi.BI\bin\Debug\netcoreapp3.1\SolicitudApi.BI.pdb
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi.BI\bin\Debug\netcoreapp3.1\SolicitudApi.Core.dll
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi.BI\bin\Debug\netcoreapp3.1\SolicitudApi.Model.dll
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi.BI\bin\Debug\netcoreapp3.1\SolicitudApi.Model.pdb
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi.BI\bin\Debug\netcoreapp3.1\SolicitudApi.Core.pdb
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi.BI\obj\Debug\netcoreapp3.1\SolicitudApi.BI.csproj.CopyComplete
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi.BI\obj\Debug\netcoreapp3.1\SolicitudApi.BI.dll
+C:\Users\elrey\source\repos\Solicitud\SolicitudApi.BI\obj\Debug\netcoreapp3.1\SolicitudApi.BI.pdb
