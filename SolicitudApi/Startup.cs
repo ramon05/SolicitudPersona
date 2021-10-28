@@ -7,7 +7,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using SolicitudApi.BI.Config;
 using SolicitudApi.Model.DataContext;
+using SolicitudApi.Model.IoC;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,6 +34,11 @@ namespace SolicitudApi
             {
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
+
+
+            services.AddModelRegistry();
+
+            services.configAutoMapper();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
