@@ -11,7 +11,7 @@ namespace SolicitudApi.BI.Dto
 
         public string Name { get; set; }
         public string LastName { get; set; }
-        public string Bob { get; set; }
+        public DateTime Bob { get; set; }
         public string Passport { get; set; }
         public string Direction { get; set; }
         public Gender Gender { get; set; }

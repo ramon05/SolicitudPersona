@@ -11,6 +11,6 @@ namespace SolicitudApi.BI.Dto
         public int PersonId { get; set; }
         public PersonDto Person { get; set; }
         public Status Status { get; set; }
-        public string CreadDate { get; set; }
+        public DateTime CreadDate { get; set; }
     }
 }
