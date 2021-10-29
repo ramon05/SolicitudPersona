@@ -10,7 +10,7 @@ namespace SolicitudApi.BI.Dto
     public class SolicitudeDto : BaseDto
     {
         public Status StatusName { get; set; }
-        public string CreadDate { get; set; }
+        public DateTime CreadDate { get; set; }
         public int PersonId { get; set; }
         public Person PersonDto { get; set; }
     }
